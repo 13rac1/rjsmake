@@ -15,7 +15,7 @@ images/graphs:
 # Make the index.html from index.md.
 # --incremental makes lists into revealjs fragments
 index.html: index.md
-	pandoc -t revealjs --template=pandoc-templates/default.revealjs \
+	pandoc -t revealjs --template=templates/default.revealjs \
 	--standalone --section-divs --variable theme="league" \
 	--variable transition="convex" --incremental \
 	--no-highlight --variable hlss=zenburn \
