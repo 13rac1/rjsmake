@@ -34,7 +34,7 @@ http://pandoc.org/
 1. Install pandoc, make, curl, and tar.
 2. Download the repository ZIP.
 3. Edit the *index.md*.
-4. Build the presentation by typing `make`
+4. Build the presentation by typing *make*
 5. Load *index.html* in a web browser.
 
 . . .

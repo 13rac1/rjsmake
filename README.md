@@ -51,18 +51,30 @@ ls -l # Code
 
 ## Setup Instructions
 
-Make-rjs requires Pandoc and Make.
+Make-rjs requires `Pandoc` and `Make`.
+
+Pandoc is best installed by following the instructions available on the
+[Pandoc install page](http://pandoc.org/installing.html). There are installers
+for Linux, OSX, and Windows.
 
 ### Linux
 
 Debian/Ubuntu based distributions:
-```bash
-sudo apt-get install pandoc make curl tar
-```
 
-### OSX/Windows
+1. Run: `sudo apt-get install make curl tar`
+2. Install the `Pandoc` DEB: http://pandoc.org/installing.html
 
-TODO
+### OS X
+
+1. Install Xcode Command Line Tools to get `Make`.
+2. Install the `Pandoc` PKG: http://pandoc.org/installing.html
+3. Optional: Install `watch` using homebrew: `brew install watch`
+
+### Windows
+
+* GNU Make: https://chocolatey.org/packages/make
+* The `Pandoc` MSI: http://pandoc.org/installing.html
+* Further details TBD
 
 ## Examples
 
@@ -71,4 +83,3 @@ The `example/basic` directory showcases the above feature set.
 ## Helpful links:
 
 * http://pandoc.org/README.html#producing-slide-shows-with-pandoc
-* http://pandoc.org/demo/example9/producing-slide-shows-with-pandoc.html
