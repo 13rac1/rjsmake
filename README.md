@@ -24,30 +24,30 @@ Disadvantage:
 Iterate on the `index.md` file by running `watch make`.
 
 ### Pandoc enhanced Markdown:
-```
-# - New Horizontal Page w/title
 
-## - New Vertical Page w/title
+    # - New Horizontal Page w/title
 
----------- = New Horizontal Page w/o Title
+    ## - New Vertical Page w/title
 
-. . . = Three dots separated by spaces creates a pause within Page
+    ---------- = New Horizontal Page w/o Title
 
-![Image Alt](image/example.png)
+    . . . = Three dots separated by spaces creates a pause within Page
 
-* Unordered
-* List
+    ![Image Alt](image/example.png)
 
-- Unordered
-- List
+    * Unordered
+    * List
 
-1. Ordered
-2. List
+    - Unordered
+    - List
 
-\```bash
-ls -l # Code
-\```
-```
+    1. Ordered
+    2. List
+
+    ```bash
+    ls -l # Code
+    ```
+
 
 ## Setup Instructions
 
