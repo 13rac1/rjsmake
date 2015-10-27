@@ -57,7 +57,7 @@ Make-rjs requires Pandoc and Make.
 
 Debian/Ubuntu based distributions:
 ```bash
-sudo apt-get install pandoc make wget tar
+sudo apt-get install pandoc make curl tar
 ```
 
 ### OSX/Windows

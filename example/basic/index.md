@@ -31,7 +31,7 @@ http://pandoc.org/
 
 # Basic Usage
 
-1. Install pandoc, make, wget, and tar.
+1. Install pandoc, make, curl, and tar.
 2. Download the repository ZIP.
 3. Edit the *index.md*.
 4. Build the presentation by typing `make`

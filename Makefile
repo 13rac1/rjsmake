@@ -14,10 +14,10 @@ index.html: index.md
 
 # RevealJS setup
 reveal.js/index.html:
-	wget https://github.com/hakimel/reveal.js/archive/3.1.0.tar.gz
-	tar zxf 3.1.0.tar.gz
+	curl -L https://github.com/hakimel/reveal.js/archive/3.1.0.tar.gz -o reveal.js.tar.gz
+	tar zxf reveal.js.tar.gz
 	mv reveal.js-3.1.0 reveal.js
-	rm 3.1.0.tar.gz
+	rm reveal.js.tar.gz
 
 # Force update the gh-pages branch with the current output.
 # WARNING: Calls "make all"
