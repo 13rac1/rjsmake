@@ -1,14 +1,18 @@
 # Make-rjs
 
-*Automating a Reveal.js presentation builds with Markdown, Pandoc, and Make.*
+*Automating Reveal.js presentation builds with Markdown, Pandoc, and Make.*
 
 Reveal.js simplifies creating presentations, but you still have to write all of
 that HTML. Pandoc comes to your rescue by allowing you to create the content in
 Markdown. Make-rjs provides a standardized structure and build process.
 
-Benefits:
+Advantages:
 * Create a presentation in minutes from Markdown.
-* Store only the presentation source in the repository.
+* Store only the presentation source in your repository.
+* Provides simplified subset of full Reveal.js feature set.
+
+Disadvantage:
+* Provides simplified subset of full Reveal.js feature set.
 
 ## Basic Use
 
@@ -17,7 +21,9 @@ Benefits:
 3. Build the presentation by typing `make`
 4. Load `index.html` in a web browser.
 
-### Pandoc/Reveal.js flavored Markdown:
+Iterate on the `index.md` file by running `watch make`.
+
+### Pandoc enhanced Markdown:
 ```
 # - New Horizontal Page w/title
 
@@ -25,15 +31,18 @@ Benefits:
 
 ---------- = New Horizontal Page w/o Title
 
-. . . = Three dots, three spaces. Pause within Page
+. . . = Three dots separated by spaces creates a pause within Page
 
 ![Image Alt](image/example.png)
 
 * Unordered
-* Lists
+* List
+
+- Unordered
+- List
 
 1. Ordered
-2. Lists
+2. List
 
 \```bash
 ls -l # Code
@@ -58,3 +67,8 @@ TODO
 ## Examples
 
 The `example/basic` directory showcases the above feature set.
+
+## Helpful links:
+
+* http://pandoc.org/README.html#producing-slide-shows-with-pandoc
+* http://pandoc.org/demo/example9/producing-slide-shows-with-pandoc.html
