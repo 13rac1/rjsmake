@@ -1,10 +1,10 @@
-# Make-rjs
+# rjsmake
 
 *Automating Reveal.js presentation builds with Markdown, Pandoc, and Make.*
 
 Reveal.js simplifies creating presentations, but you still have to write all of
 that HTML. Pandoc comes to your rescue by allowing you to create the content in
-Markdown. Make-rjs provides a standardized structure and build process.
+Markdown. Rjsmake provides a standardized structure and build process.
 
 Advantages:
 * Create a presentation in minutes from Markdown.
@@ -51,7 +51,7 @@ ls -l # Code
 
 ## Setup Instructions
 
-Make-rjs requires `Pandoc` and `Make`.
+Rjsmake requires `Pandoc` and `Make`.
 
 Pandoc is best installed by following the instructions available on the
 [Pandoc install page](http://pandoc.org/installing.html). There are installers

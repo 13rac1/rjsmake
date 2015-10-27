@@ -1,4 +1,4 @@
-# Make-rjs
+# rjsmake
 
 Automating Reveal.js presentation builds with Markdown, Pandoc, and Make.
 
@@ -6,7 +6,7 @@ Automating Reveal.js presentation builds with Markdown, Pandoc, and Make.
 
 **Focus on the content.**
 
-https://github.com/eosrei/Make-rjs
+https://github.com/eosrei/rjsmake
 
 
 # The Tools
