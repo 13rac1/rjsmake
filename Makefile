@@ -10,6 +10,7 @@ index.html: index.md
 	--standalone --section-divs --variable theme="league" \
 	--variable transition="convex" --incremental \
 	--no-highlight --variable hlss=zenburn \
+        --css=css/custom.css \
 	index.md -o index.html
 
 # RevealJS setup
